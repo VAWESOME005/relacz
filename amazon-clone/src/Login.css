@@ -1,0 +1,86 @@
+.login {
+    background-color: #111;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.login__logo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    object-fit: contain;
+    width: 100px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.login__container {
+    width: 300px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    padding: 20px;
+}
+
+.login__container > h1 {
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+
+.login__container > form > h5 {
+    margin-bottom: 5px;
+}
+
+.login__container > form > input {
+    height: 30px;
+    margin-bottom: 10px;
+    background-color: white;
+    width: 98%;
+}
+
+.login__container > p {
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+.login__signInButton {
+    background: rgb(181, 64, 103) !important;
+    border-radius: 2px !important;
+    width: 100% !important;
+    height: 30px !important;
+    border: 1px solid !important;
+    margin-top: 10px !important;
+    border-color: rgb(181, 64, 103) !important;
+    color: white !important;
+    text-transform: inherit !important;
+    font-weight: 1000px;
+}
+
+.login__signInButton:hover {
+    color: white !important;
+    background-color: #111 !important;
+}
+
+.login__registerButton {
+    border-radius: 2px !important;
+    width: 100% !important;
+    height: 30px !important;
+    border: 1px solid !important;
+    margin-top: 10px !important;
+    border-color: lightgray !important;
+    color: #111 !important;
+    text-transform: inherit !important;
+    background-color: lightgray !important;
+}
+
+.login__registerButton:hover {
+   color: lightgray !important;
+   background-color: #111 !important;
+}
